@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_Z01R.mk
+    $(LOCAL_DIR)/syberia_Z01R.mk
 	
 COMMON_LUNCH_CHOICES := \
-    aosp_Z01R-user \
-    aosp_Z01R-userdebug \
-    aosp_Z01R-eng 
+    syberia_Z01R-user \
+    syberia_Z01R-userdebug \
+    syberia_Z01R-eng 
