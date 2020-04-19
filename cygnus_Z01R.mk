@@ -25,6 +25,7 @@ $(call inherit-product, device/asus/Z01R/device.mk)
 # Inherit some common Cygnus stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_WIFI_EXT := true
 
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
