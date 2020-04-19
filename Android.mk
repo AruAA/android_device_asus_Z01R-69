@@ -16,6 +16,10 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),Z01R)
+ifeq ($(TARGET_DEVICE),ASUS_Z01R_1)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
+
+LOCAL_PACKAGE_NAME : = SetupWizard
+LOCAL_PRIVILEGED_MODULE : = true
+LOCAL_OVERIDES_PACKAGES : = Provision
